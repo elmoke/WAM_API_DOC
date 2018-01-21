@@ -1323,6 +1323,25 @@ Response:
 --- 
 ``` 
 
+### 57 - SetFunc
+Description: Select D.IN or Optical input
+
+Example: 
+
+```  
+curl 'http://ip_speaker:55001/UIC?cmd=%3Cname%3ESetFunc%3C/name%3E%3Cp%20type=%22str%22%20name=%22function%22%20val=%22optical%22/%3E' 
+```  
+ Xml string decoded: 
+```  
+<name>SetFunc</name><p type="str" name="function" val="optical"/>
+```  
+
+Response:  
+
+```  
+--- 
+``` 
+
 ****
 
 ### 58 - SetIpInfo
